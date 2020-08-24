@@ -2,6 +2,8 @@
 
 :fire: Data loaders and abstractions for text and NLP - for Ruby
 
+[![Build Status](https://travis-ci.org/ankane/torchtext.svg?branch=master)](https://travis-ci.org/ankane/torchtext)
+
 ## Installation
 
 Add this line to your application’s Gemfile:
