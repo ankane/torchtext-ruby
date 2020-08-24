@@ -19,7 +19,7 @@ This library follows the [Python API](https://pytorch.org/text/). Many methods a
 Text classification
 
 - [PyTorch tutorial](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html)
-- [Ruby code](examples/text_classification)
+- [Ruby code](examples/text_classification.rb)
 
 ## Datasets
 
