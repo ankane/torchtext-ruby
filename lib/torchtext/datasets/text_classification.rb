@@ -139,7 +139,7 @@ module TorchText
             return to_path
           end
 
-          raise "Not implemented yet"
+          raise "We currently only support tar.gz and tgz archives"
         end
       end
 
