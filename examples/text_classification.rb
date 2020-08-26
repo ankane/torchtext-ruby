@@ -1,7 +1,6 @@
 # ported from PyTorch Tutorials
 # https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html
-# Copyright (c) 2017 PyTorch contributors, 2020 Andrew Kane
-# BSD 3-Clause License
+# see LICENSE-text-classification.txt
 
 require "torch"
 require "torchtext"
