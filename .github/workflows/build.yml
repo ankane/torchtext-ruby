@@ -12,7 +12,7 @@ jobs:
     - uses: actions/cache@v2
       with:
         path: ~/libtorch
-        key: libtorch-${{ env.LIBTORCH_VERSION }}-v2
+        key: libtorch-${{ env.LIBTORCH_VERSION }}
       id: cache-libtorch
     - name: Download LibTorch
       if: steps.cache-libtorch.outputs.cache-hit != 'true'
@@ -27,5 +27,5 @@ jobs:
     - uses: actions/cache@v2
       with:
         path: ~/data
-        key: data-v2
+        key: data-v1
     - run: bundle exec rake test
