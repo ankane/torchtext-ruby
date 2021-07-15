@@ -9,6 +9,7 @@ require "set"
 
 # modules
 require "torchtext/data/utils"
+require "torchtext/data/metrics"
 require "torchtext/datasets/text_classification"
 require "torchtext/datasets/text_classification_dataset"
 require "torchtext/nn/in_proj_container"

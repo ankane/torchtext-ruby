@@ -28,4 +28,10 @@ class DataTest < Minitest::Test
     expected = ["here", "we", "are", "!", "here we", "we are", "are !", "here we are", "we are !"]
     assert_equal expected, ngrams
   end
+
+  def test_bleu_score
+    candidate_corpus = [["My", "full", "pytorch", "test"], ["Another", "Sentence"]]
+    references_corpus = [[["My", "full", "pytorch", "test"], ["Completely", "Different"]], [["No", "Match"]]]
+    assert_in_delta 0.8408964276313782, TorchText::Data::Metrics.bleu_score(candidate_corpus, references_corpus)
+  end
 end
