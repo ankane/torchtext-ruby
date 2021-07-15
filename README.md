@@ -35,6 +35,37 @@ Supported datasets are:
 
 - [AG_NEWS](http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html)
 
+## Data Utils
+
+Supports:
+
+- tokenizer
+- ngrams_iterator
+
+## Data Metrics
+
+Compute the BLEU score
+
+```ruby
+candidate_corpus = [["My", "full", "pytorch", "test"], ["Another", "Sentence"]]
+references_corpus = [[["My", "full", "pytorch", "test"], ["Completely", "Different"]], [["No", "Match"]]]
+TorchText::Data::Metrics.bleu_score(candidate_corpus, references_corpus)
+```
+
+## NN
+
+Supports:
+
+- InProjContainer
+- MultiheadAttentionContainer
+- ScaledDotProduct
+
+## Vocab
+
+Supports:
+
+- Vocab
+
 ## Disclaimer
 
 This library downloads and prepares public datasets. We don’t host any datasets. Be sure to adhere to the license for each dataset.
