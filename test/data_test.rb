@@ -1,6 +1,8 @@
 require_relative "test_helper"
 
 class DataTest < Minitest::Test
+  # utils
+
   def test_tokenizer
     tokenizer = TorchText::Data.tokenizer("basic_english")
     tokens = tokenizer.call("You can now install TorchText using pip!")
@@ -29,9 +31,19 @@ class DataTest < Minitest::Test
     assert_equal expected, ngrams
   end
 
+  # metrics
+
   def test_bleu_score
     candidate_corpus = [["My", "full", "pytorch", "test"], ["Another", "Sentence"]]
     references_corpus = [[["My", "full", "pytorch", "test"], ["Completely", "Different"]], [["No", "Match"]]]
     assert_in_delta 0.8408964276313782, TorchText::Data::Metrics.bleu_score(candidate_corpus, references_corpus)
+  end
+
+  # functional
+
+  def test_simple_space_split
+    list_a = ["Sentencepiece encode as pieces", "example to try!"]
+    expected = [["Sentencepiece", "encode", "as", "pieces"], ["example", "to", "try!"]]
+    assert_equal expected, TorchText::Data::Functional.simple_space_split(list_a)
   end
 end

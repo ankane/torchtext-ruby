@@ -8,8 +8,9 @@ require "rubygems/package"
 require "set"
 
 # modules
-require "torchtext/data/utils"
+require "torchtext/data/functional"
 require "torchtext/data/metrics"
+require "torchtext/data/utils"
 require "torchtext/datasets/text_classification"
 require "torchtext/datasets/text_classification_dataset"
 require "torchtext/nn/in_proj_container"
