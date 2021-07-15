@@ -1,4 +1,4 @@
-## 0.1.1 (unreleased)
+## 0.1.1 (2021-07-15)
 
 - Added `NN` module
 - Added `bleu_score` method
