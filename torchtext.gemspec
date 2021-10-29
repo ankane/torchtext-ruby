@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "torchtext"
   spec.version       = TorchText::VERSION
   spec.summary       = "Data loaders and abstractions for text and NLP"
-  spec.homepage      = "https://github.com/ankane/torchtext"
+  spec.homepage      = "https://github.com/ankane/torchtext-ruby"
   spec.license       = "BSD-3-Clause"
 
   spec.author        = "Andrew Kane"

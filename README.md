@@ -1,8 +1,8 @@
-# TorchText
+# TorchText Ruby
 
 :fire: Data loaders and abstractions for text and NLP - for Ruby
 
-[![Build Status](https://github.com/ankane/torchtext/workflows/build/badge.svg?branch=master)](https://github.com/ankane/torchtext/actions)
+[![Build Status](https://github.com/ankane/torchtext-ruby/workflows/build/badge.svg?branch=master)](https://github.com/ankane/torchtext-ruby/actions)
 
 ## Installation
 
@@ -74,22 +74,22 @@ If you’re a dataset owner and wish to update any details or remove it from thi
 
 ## History
 
-View the [changelog](https://github.com/ankane/torchtext/blob/master/CHANGELOG.md)
+View the [changelog](https://github.com/ankane/torchtext-ruby/blob/master/CHANGELOG.md)
 
 ## Contributing
 
 Everyone is encouraged to help improve this project. Here are a few ways you can help:
 
-- [Report bugs](https://github.com/ankane/torchtext/issues)
-- Fix bugs and [submit pull requests](https://github.com/ankane/torchtext/pulls)
+- [Report bugs](https://github.com/ankane/torchtext-ruby/issues)
+- Fix bugs and [submit pull requests](https://github.com/ankane/torchtext-ruby/pulls)
 - Write, clarify, or fix documentation
 - Suggest or add new features
 
 To get started with development:
 
 ```sh
-git clone https://github.com/ankane/torchtext.git
-cd torchtext
+git clone https://github.com/ankane/torchtext-ruby.git
+cd torchtext-ruby
 bundle install
 bundle exec rake test
 ```
