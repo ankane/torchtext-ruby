@@ -8,16 +8,16 @@ require "rubygems/package"
 require "set"
 
 # modules
-require "torchtext/data/functional"
-require "torchtext/data/metrics"
-require "torchtext/data/utils"
-require "torchtext/datasets/text_classification"
-require "torchtext/datasets/text_classification_dataset"
-require "torchtext/nn/in_proj_container"
-require "torchtext/nn/multihead_attention_container"
-require "torchtext/nn/scaled_dot_product"
-require "torchtext/vocab"
-require "torchtext/version"
+require_relative "torchtext/data/functional"
+require_relative "torchtext/data/metrics"
+require_relative "torchtext/data/utils"
+require_relative "torchtext/datasets/text_classification"
+require_relative "torchtext/datasets/text_classification_dataset"
+require_relative "torchtext/nn/in_proj_container"
+require_relative "torchtext/nn/multihead_attention_container"
+require_relative "torchtext/nn/scaled_dot_product"
+require_relative "torchtext/vocab"
+require_relative "torchtext/version"
 
 module TorchText
   class Error < StandardError; end
