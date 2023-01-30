@@ -1,4 +1,4 @@
-## 0.2.0 (unreleased)
+## 0.2.0 (2023-01-30)
 
 - Added `Functional` module
 - Dropped support for Ruby < 2.7
