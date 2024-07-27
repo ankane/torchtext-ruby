@@ -2,7 +2,7 @@
 
 :fire: Data loaders and abstractions for text and NLP - for Ruby
 
-[![Build Status](https://github.com/ankane/torchtext-ruby/workflows/build/badge.svg?branch=master)](https://github.com/ankane/torchtext-ruby/actions)
+[![Build Status](https://github.com/ankane/torchtext-ruby/actions/workflows/build.yml/badge.svg)](https://github.com/ankane/torchtext-ruby/actions)
 
 ## Installation
 
