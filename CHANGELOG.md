@@ -1,3 +1,7 @@
+## 0.3.1 (unreleased)
+
+- Added support for Ruby 3.4
+
 ## 0.3.0 (2024-08-02)
 
 - Dropped support for Ruby < 3.1
