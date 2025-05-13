@@ -3,10 +3,15 @@ module TorchText
     UNK = "<unk>"
 
     def initialize(
-      counter, max_size: nil, min_freq: 1, specials: ["<unk>", "<pad>"],
-      vectors: nil, unk_init: nil, vectors_cache: nil, specials_first: true
+      counter,
+      max_size: nil,
+      min_freq: 1,
+      specials: ["<unk>", "<pad>"],
+      vectors: nil,
+      unk_init: nil,
+      vectors_cache: nil,
+      specials_first: true
     )
-
       @freqs = counter
       counter = counter.dup
       min_freq = [min_freq, 1].max
