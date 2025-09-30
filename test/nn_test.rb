@@ -21,7 +21,7 @@ class NNTest < Minitest::Test
 
     query = Torch.rand([21, bsz, embed_dim])
     key = value = Torch.rand([16, bsz, embed_dim])
-    attn_output, attn_weights = mha.call(query, key, value)
+    attn_output, _attn_weights = mha.call(query, key, value)
     assert_equal [21, 64, 10], attn_output.shape
   end
 end
